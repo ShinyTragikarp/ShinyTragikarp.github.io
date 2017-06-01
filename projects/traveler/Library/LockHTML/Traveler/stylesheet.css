@@ -1,0 +1,58 @@
+/*
+Whipsmart is a free font for personal use, or commercial by donation.
+Whipsmart was created by Lauren Thompson:
+http://www.dafont.com/profile.php?user=195029 https://twitter.com/nymphont http://nymfont.com
+*/
+@font-face {
+    font-family: Whipsmart;
+    src: url("fonts/Whipsmart.woff") format('woff');
+}
+
+body{
+    background: transparent;
+    color: white;
+    font-family: Whipsmart;
+    font-size:10vw;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+    letter-spacing: 1.5vw;
+}
+
+#arrows {
+    position: absolute;
+    top:-0.0%; /*Neccesary, moves the image a handful of pixels up, for some reason */
+    left:25%;
+    width:50%;
+}
+/*
+Styles for the positioning and size of the various text tags.
+    Hour/Minute/AMPM
+*/
+#hour {
+    position: absolute;
+    top:21.5%; 
+    left:0%; 
+    width:50%; 
+    text-align:center; 
+    z-index:50;
+}
+#minute {
+    position: absolute;
+    top:21.5%; 
+    left:50%; 
+    width:50%; 
+    text-align:center; 
+    z-index:50;
+    
+}
+#ampm {
+    font-size: 3vw;
+    font-weight:bolder;
+    letter-spacing: 7vw;
+    
+    position: absolute;
+    top:24%; 
+    left:45%; 
+    width:0%; 
+    text-align:center; 
+    z-index:50;
+}
